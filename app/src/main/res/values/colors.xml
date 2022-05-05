@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="tile">#FFFFFFFF</color>
+
+    <color name="background">#f2f3f6</color>
+    <color name="backgroud_tv_sale_percen_in_sale_day">#F60303</color>
+    <color name="background_bar">#1ba9ff</color>
+    <color name="bt_log_or_reg">#1ba9ff</color>
+    <color name="All_category">#0040FF</color>
+    <color name="background_item_main_category">#eef9ff</color>
+    <color name="TextLogReg">#1ba9ff</color>
+    <color name="ColorTextInDetail">#585858</color>
+
+
+    <color name="function_select">#0f1bc2</color>
+    <color name="search_bar_bgr">#0f1bc2</color>
+    <color name="function_no_select">#585858</color>
+    <color name="search_bar_et">#FFFFFF</color>
+</resources>

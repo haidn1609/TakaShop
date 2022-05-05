@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:background="#EEEEEE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/main_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignParentTop="true"
+            android:background="@color/background_bar"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp">
+
+            <Button
+                android:id="@+id/btn_bar_menu_in_main"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/button_bar_menu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="11">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10">
+
+                    <EditText
+                        android:cursorVisible="false"
+                        android:id="@+id/et_search_item_inMain"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_6sdp"
+                        android:background="@drawable/seach_bar"
+                        android:hint="@string/et_search_bar"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_30sdp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_28sdp"
+                        android:layout_height="@dimen/_28sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/_2sdp"
+                        android:src="@drawable/ic_baseline_search_24" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/img_icon_buy_inMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_shopping_cart_24" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/main_search_bar" />
+
+    </RelativeLayout>
+</layout>

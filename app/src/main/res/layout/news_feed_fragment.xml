@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_bar"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_3sdp"
+                    android:text="Tin của bạn" />
+
+                <EditText
+                    android:text="haha"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="top|left"
+                    android:id="@+id/et_input_news_feed"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@drawable/new_feed_et_box"
+                    android:scrollbarSize="@dimen/_10sdp"
+                    android:scrollbars="vertical" />
+
+                <Button
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_add_news"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_gravity="right"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:background="@color/bt_log_or_reg"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="Đăng Tin" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/background_rcv_news"
+                android:padding="@dimen/_5sdp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_75sdp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/ads_in_category_1"
+        android:scaleType="fitXY"
+        android:id="@+id/img_ads_category"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

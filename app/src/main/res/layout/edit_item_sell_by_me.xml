@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/img_back_in_edit_item_sell_by_me"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:src="@drawable/back_in_manager_user" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/edit_item_sells"
+                    android:textColor="@color/TextLogReg"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <EditText
+                    android:id="@+id/et_item_sell_name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/et_log_reg"
+                    android:hint="@string/item_name"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_trademark_in_edit_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/et_log_reg"
+                    android:hint="@string/tradeMarkItem"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/select_main_category_in_edit_item"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/et_log_reg"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/main_category"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/select_side_category_in_edit_item"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:background="@drawable/et_log_reg"
+                        android:gravity="center_vertical"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/side_category"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_priceOnceItem_in_edit_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/et_log_reg"
+                    android:hint="@string/priceOnceItemSell"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RadioGroup
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <RadioButton
+                            android:id="@+id/check_dont_sale_in_edit_item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:text="@string/dontSale" />
+
+                        <RadioButton
+                            android:id="@+id/check_sale_in_edit_item"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="@string/sale" />
+                    </RadioGroup>
+
+                    <EditText
+                        android:id="@+id/et_sale_price_item_in_edit_item"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/et_log_reg"
+                        android:gravity="center_vertical"
+                        android:hint="@string/priceIfSale"
+                        android:inputType="number"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_invetory_Item_in_edit_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/et_log_reg"
+                    android:hint="@string/inventory_you_have_now"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/et_characteristics_Item_in_edit_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/et_log_reg"
+                    android:gravity="top|left"
+                    android:hint="@string/characteristics"
+                    android:inputType="text"
+                    android:padding="@dimen/_5sdp"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_url_avatar_Item_in_edit_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:background="@drawable/et_log_reg"
+                        android:hint="@string/urlAvatarItemImage"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/confirm_url_img_edit"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:src="@drawable/ic_baseline_done_24" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:id="@+id/img_item_avatar_in_edit_item"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginTop="@dimen/_5sdp" />
+
+                <Button
+                    android:id="@+id/btn_confirm_edit_item"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/bt_log_or_reg"
+                    android:text="@string/confirm"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

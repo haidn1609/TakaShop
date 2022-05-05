@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/img_back_in_manager_accept_item_sell"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:src="@drawable/back_in_manager_user" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/done_item_add"
+                    android:textColor="@color/TextLogReg"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/et_search_accept_item_sell"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:background="@drawable/seach_bar"
+                        android:hint="@string/search_item_buy"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_30sdp"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:id="@+id/icon_search_accept_item_sell"
+                        android:layout_width="@dimen/_28sdp"
+                        android:layout_height="@dimen/_28sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:src="@drawable/ic_baseline_search_24" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--                    <LinearLayout-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="@dimen/_20sdp"-->
+                    <!--                        android:orientation="horizontal">-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="match_parent"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:text="@string/sort"-->
+                    <!--                            android:textSize="14sp" />-->
+
+                    <!--                        <TextView-->
+                    <!--                            android:id="@+id/sort_accept_item_sell"-->
+                    <!--                            android:layout_width="wrap_content"-->
+                    <!--                            android:layout_height="match_parent"-->
+                    <!--                            android:layout_margin="@dimen/_3sdp"-->
+                    <!--                            android:gravity="center_vertical"-->
+                    <!--                            android:text="@string/lowPrice"-->
+                    <!--                            android:textSize="14sp" />-->
+                    <!--                    </LinearLayout>-->
+
+                    <ImageView
+                        android:id="@+id/refesh_list_accept_item_sell_manager"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:src="@drawable/ic_baseline_refresh_24" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv_manager_accept_item_sell"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:id="@+id/back_page_in_manager_accept_item_sell"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/back_page" />
+
+                <TextView
+                    android:id="@+id/tv_current_total_page_manager_accept_item_sell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_3sdp"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/next_page_in_manager_accept_item_sell"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/next_page" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</layout>

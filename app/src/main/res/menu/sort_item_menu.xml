@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newItemMenu"
+        android:title="@string/newItem" />
+    <item
+        android:id="@+id/hotItemMenu"
+        android:title="@string/hotItem" />
+    <item
+        android:id="@+id/lowPriceMenu"
+        android:title="@string/lowPrice" />
+    <item
+        android:id="@+id/hightPriceMenu"
+        android:title="@string/hightPrice" />
+
+</menu>

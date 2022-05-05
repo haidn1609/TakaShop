@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/setAdmin"
+        android:title="@string/typeAdmin" />
+    <item
+        android:id="@+id/setSeller"
+        android:title="@string/typeSeller" />
+    <item
+        android:id="@+id/setNormal"
+        android:title="@string/typeNormal" />
+    <item
+        android:id="@+id/setTradeMark"
+        android:title="@string/typeTradeMark" />
+
+</menu>

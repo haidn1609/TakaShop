@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE">
+
+        <Button
+            android:id="@+id/btn_back_login"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:text="Back" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_above="@id/et_login_account"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_15sdp"
+            android:src="@drawable/logoapp" />
+
+        <EditText
+            android:id="@+id/et_login_account"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/et_log_reg"
+            android:hint="@string/AccountNameLogin"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <EditText
+            android:hint="@string/AccountPassLogin"
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/et_login_account"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:background="@drawable/et_log_reg"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/_10sdp" />
+
+        <TextView
+            android:id="@+id/forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_below="@+id/et_login_password"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="@string/forgotPassword" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_below="@+id/forgot_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bt_log_or_reg"
+            android:text="@string/Login"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_Log_Reg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:text="@string/Register"
+            android:textColor="#585858" />
+    </RelativeLayout>
+</layout>

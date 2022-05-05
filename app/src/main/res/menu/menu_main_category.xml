@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_category_toy_and_mom"
+        android:title="@string/toy_and_mom" />
+    <item
+        android:id="@+id/main_category_phone_and_tablet"
+        android:title="@string/phone_and_tablet" />
+    <item
+        android:id="@+id/main_category_cosmetic"
+        android:title="@string/cosmetic" />
+    <item
+        android:id="@+id/electric_appliances"
+        android:title="@string/electric_appliances" />
+    <item
+        android:id="@+id/main_category_women_fashion"
+        android:title="@string/women_fashion" />
+    <item
+        android:id="@+id/main_category_men_fashion"
+        android:title="@string/men_fashion" />
+    <item
+        android:id="@+id/main_category_jewelry"
+        android:title="@string/jewelry" />
+    <item
+        android:id="@+id/main_category_laptop_pc"
+        android:title="@string/laptop_pc" />
+    <item
+        android:id="@+id/main_category_car_moto"
+        android:title="@string/car_moto" />
+    <item
+        android:id="@+id/main_category_food_drink"
+        android:title="@string/food_drink" />
+
+</menu>

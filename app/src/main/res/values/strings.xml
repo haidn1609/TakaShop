@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">TaKa</string>
+    <!--System-->
+    <string name="et_search_bar">Bạn muốn tìm gì</string>
+    <string name="notifyCheckInternet">Không có kết nối Interner, kiểm tra lại kết nối.</string>
+    <string name="notifyCheckLogin">Chưa đăng nhập bạn muốn đăng nhập không.</string>
+    <string name="returnConnect">Kết nối lại</string>
+    <string name="cancelNotify">Đóng</string>
+    <string name="dialogTile">Thông báo</string>
+    <string name="dont_loading">Không thể hiển thị</string>
+    <string name="item">sản phẩm</string>
+    <!--NavigationBar-->
+    <string name="function_home">Trang chủ</string>
+    <string name="function_Category">Danh mục</string>
+    <string name="function_new">Bản tin</string>
+    <string name="function_Notification">Thông báo</string>
+    <string name="function_user">Tài khoản</string>
+    <!--HomeFragment-->
+    <string name="sale_in_day">Deal sốc trong ngày.</string>
+    <string name="HotDeal">Hot Deal</string>
+    <string name="BestPrice">Giá tốt</string>
+    <string name="NewItemHome">Mới</string>
+    <string name="show_all_in_home">Tất cả</string>
+    <string name="item_your_like">Có thể bạn sẽ thích.</string>
+    <!--CategoryFragment-->
+    <string name="show_all">TẤT CẢ SẢN PHẨM</string>
+    <string name="category_tile">DANH MỤC</string>
+    <!--MainCate    -->
+    <string name="toy_and_mom">Đồ chơi-Mẹ và bé</string>
+    <string name="phone_and_tablet">Điện thoại-Máy tính bảng</string>
+    <string name="cosmetic">Mỹ phẩm-Sức Khỏe</string>
+    <string name="electric_appliances">Điện gia dụng</string>
+    <string name="women_fashion">Thời trang nữ</string>
+    <string name="men_fashion">Thời trang nam</string>
+    <string name="jewelry">Trang sức-Phụ kiện</string>
+    <string name="laptop_pc">Laptop-PC-Phụ kiện</string>
+    <string name="car_moto">Ô tô-Xe máy</string>
+    <string name="food_drink">Thực phẩm</string>
+    <!--SideCate    -->
+    <string name="taLot">Tã lót</string>
+    <string name="suaBot">Sữa bột</string>
+    <string name="doChoi">Đồ chơi</string>
+    <string name="quanAoTreEm">Quần áo trẻ em</string>
+    <string name="dienThoai">Điện thoại</string>
+    <string name="mayTinhBang">Máy tính bảng</string>
+    <string name="lipstick">Son</string>
+    <string name="nuocHoa">Nước hoa</string>
+    <string name="lamMat">Làm mát</string>
+    <string name="nauAn">Nấu ăn</string>
+    <string name="giaDung">Gia dụng</string>
+    <string name="aoNu">Áo nữ</string>
+    <string name="quanNu">Quần nữ</string>
+    <string name="vayNu">Váy nữ</string>
+    <string name="aoNam">Áo Nam</string>
+    <string name="quanNam">Quần nam</string>
+    <string name="trangSuc">Trang sức</string>
+    <string name="balo">Balo</string>
+    <string name="tuiXach">Túi xách</string>
+    <string name="laptop">Laptop</string>
+    <string name="pc">PC</string>
+    <string name="phuKien">Phụ kiện</string>
+    <string name="oto">Ô tô</string>
+    <string name="xeMay">Xe máy</string>
+    <string name="foods">Đồ ăn</string>
+    <string name="drinks">Nước uống</string>
+    <!--Detail Item-->
+    <string name="characteristics">Thông tin sản phẩm</string>
+    <string name="btnBuy">Mua</string>
+    <string name="TotalItemSold">Đã bán : </string>
+    <string name="TotalItem">Còn lại : </string>
+    <string name="trademark">Nhãn Hiệu : </string>
+    <string name="UserSellName">Người bán : </string>
+    <!--Show All Item-->
+    <string name="sort">Sắp xếp : </string>
+    <string name="totalItemUserSell">Sản phẩm : </string>
+    <string name="totalSoldUserSell">Đã bán : </string>
+    <string name="totalSoldInMonthUserSell">Đã bán trong tháng : </string>
+    <!--Sort menu-->
+    <string name="newItem">Hàng mới</string>
+    <string name="hotItem">Bán chạy</string>
+    <string name="lowPrice">Giá thấp</string>
+    <string name="hightPrice">Giá cao</string>
+    <!--    UserFragment-->
+    <string name="welcomeToMyApp">Chào mừng bạn đến với chúng tôi.</string>
+    <string name="LoginOrLogout">Đăng Nhập/Đăng ký</string>
+    <string name="manager_item_sell">Quản lý sản phẩm bán.</string>
+    <string name="manager_user">Quản lý tài khoản.</string>
+    <string name="manager_item_buy">Sản phẩm đã mua.</string>
+    <string name="user_seting">Cài đặt.</string>
+    <!--    Register user-->
+    <string name="User">Người dùng : </string>
+    <string name="firstNameUser">Họ</string>
+    <string name="lastNameUser">Tên</string>
+    <string name="accountNameUser">Tài khoản</string>
+    <string name="passNameUser">Mật khẩu</string>
+    <string name="emailNameUser">Email</string>
+    <string name="phoneNameUser">Số điện thoại</string>
+    <string name="addressNameUser">Địa chỉ</string>
+    <string name="sexMale">Nam</string>
+    <string name="sexFemale">Nữ</string>
+    <string name="notification_dont_name_user">Tên người dùng không hợp lệ</string>
+    <string name="notification_dont_name_account">Tên tài khoản không hợp lệ</string>
+    <string name="notification_have_name_account">Tên tài khoản đã tồn tại</string>
+    <string name="notification_dont_pass_account">Mật khẩu không hợp lệ</string>
+    <string name="notification_dont_phone_account">Số điện thoại không hợp lệ</string>
+    <string name="notification_dont_address_account">Nhập địa chỉ của bạn</string>
+    <string name="register_confirm">Đăng ký</string>
+    <string name="register_complete">Đăng ký thành công</string>
+    <!--    Login User-->
+    <string name="AccountNameLogin">Tài khoản</string>
+    <string name="AccountPassLogin">Mật Khẩu</string>
+    <string name="forgotPassword">Quên Mật Khẩu</string>
+    <string name="Login">Đăng nhập</string>
+    <string name="LoginComplete">Đăng nhập thành công</string>
+    <string name="LoginFalse">Đăng nhập thất bại</string>
+    <string name="Register">Nếu chưa có tài khoản ấn đây để đăng ký.</string>
+    <string name="backSetting">Quay lại</string>
+    <string name="delete">Xóa</string>
+    <string name="edit_type">Type</string>
+    <!--    OrderFragment-->
+    <string name="tileOrder">Danh sách sản phẩm </string>
+    <string name="addComplete">Đã thêm sản phẩm</string>
+    <string name="priceOnceItem">Giá : </string>
+    <string name="priceTotal">Tổng :</string>
+    <string name="notification_1">Bạn muốn mua </string>
+    <string name="notification_2"> sản phẩm hết </string>
+    <string name="buyComplete">Mua thành công.</string>
+    <!--manager user-->
+    <string name="search_user_name">Nhập account bạn muốn tìm</string>
+    <string name="dont_find_user">Người dùng không tồn tại</string>
+    <string name="Type">Loại</string>
+    <string name="typeSeller">Seller</string>
+    <string name="typeNormal">Normal</string>
+    <string name="typeTradeMark">TradeMark</string>
+    <string name="typeAdmin">Admin</string>
+    <string name="delete_complete">Đã xóa thành công</string>
+    <string name="edit_type_complete">Đã thay đổi thành công</string>
+    <!--    manager item buy-->
+    <string name="search_item_buy">Nhập vật phẩm bạn muốn tìm</string>
+    <string name="purchase_item_buy">Số lượng : </string>
+    <string name="day_buy">Ngày giao dịch : </string>
+    <string name="dont_find_itemBuy">Không tìm thấy vật phẩm</string>
+    <!--    manager item sell-->
+    <string name="add_item_sells">Thêm sản phẩm</string>
+    <string name="edit_item_sells">Sửa sản phẩm</string>
+    <string name="done_item_add">Xác nhận sản phẩm</string>
+    <string name="item_name">Tên sản phẩm</string>
+    <string name="now_item_sells">Vật phẩm của bạn</string>
+    <string name="item_sell_sold">Vật phẩm đã bán</string>
+    <string name="user_buy_item_me">Người mua : </string>
+    <string name="day_me_sell">Ngày bán</string>
+    <string name="total_item_sell">Đã bán</string>
+    <string name="inventory_item">Còn lại</string>
+    <string name="sold_in_month">Bán trong tháng</string>
+    <string name="main_category">Danh mục chính</string>
+    <string name="side_category">Danh mục phụ</string>
+    <string name="priceOnceItemSell">Giá sản phẩm</string>
+    <string name="sale">Giảm giá</string>
+    <string name="dontSale">Không giảm giá</string>
+    <string name="priceIfSale">Giá khuyến mãi</string>
+    <string name="inventory_you_have_now">Số lượng sản phẩm hiện có</string>
+    <string name="characteristicsItem">Thông tin sản phẩm : </string>
+    <string name="tradeMarkItem">Nhã hiệu sản phẩm</string>
+    <string name="urlAvatarItemImage">URL Ảnh đại diện sản phẩm</string>
+    <string name="noneAcceptImg">Ảnh đại diện không hợp lệ</string>
+    <string name="notificationDontAcceptAddItem">Xin điền đầy đủ thông tin</string>
+    <string name="notificationAcceptAddItem">Thêm thành công chờ xét duyệt</string>
+    <string name="notificationAcceptEditItem">Xửa thông tin thành công</string>
+    <string name="acceptComplete">Thêm thành công chờ xét duyệt</string>
+    <string name="editItem">Sửa thông tin</string>
+    <string name="acceptItemSale">Giảm giá : </string>
+    <string name="acceptDoneSale">Có</string>
+    <string name="acceptDontSale">Không</string>
+    <string name="acceptPriceSale">Giá khuyến mại : </string>
+    <string name="acceptMainCate">Danh mục chính : </string>
+    <string name="acceptSideCate">Danh mục phụ : </string>
+    <!--notification-->
+    <string name="notificationEditItem">Đã sửa đổi thông tin vật phẩm</string>
+    <string name="notificationAddItem">Đã yêu cầu đăng kí bán vật phẩm</string>
+    <string name="notificationDontAccepItem">đã bị từ chối đăng ký</string>
+    <string name="notificationAccepItem">đã được đăng ký</string>
+    <!--    setting-->
+    <string name="Logout">Đăng xuất</string>
+    <string name="editProfile">Sửa thông tin tài khoản</string>
+    <string name="editPass">Đổi mật khẩu</string>
+    <string name="selectAvatar">Chọn ảnh</string>
+    <string name="fromStorage">Bộ nhớ điện thoại</string>
+    <string name="fromURL">URL</string>
+    <string name="noneUrl">Nhập URL</string>
+    <string name="oldPass">Mật khẩu cũ</string>
+    <string name="newPass">Mật khẩu mới</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="change_complete">Thay đổi thành công</string>
+    <string name="old_pass_wrong">Sai mật khẩu</string>
+    <string name="dont_mismatched">Mật khẩu mới không khớp</string>
+</resources>

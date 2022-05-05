@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/time_me_sell"
+        android:title="@string/day_me_sell" />
+    <item
+        android:id="@+id/total_item_sell"
+        android:title="@string/total_item_sell" />
+    <item
+        android:id="@+id/sold_in_month_item_sell"
+        android:title="@string/sold_in_month" />
+    <item
+        android:id="@+id/inventory_item"
+        android:title="@string/inventory_item" />
+    <item
+        android:id="@+id/lowPrice"
+        android:title="@string/lowPrice" />
+    <item
+        android:id="@+id/hightPrice"
+        android:title="@string/hightPrice" />
+
+</menu>

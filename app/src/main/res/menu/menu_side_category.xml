@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/side_category_taLot"
+        android:title="@string/taLot" />
+    <item
+        android:id="@+id/side_category_suaBot"
+        android:title="@string/suaBot" />
+    <item
+        android:id="@+id/side_category_doChoi"
+        android:title="@string/doChoi" />
+    <item
+        android:id="@+id/side_category_quanAoTreEm"
+        android:title="@string/quanAoTreEm" />
+    <item
+        android:id="@+id/side_category_dienThoai"
+        android:title="@string/dienThoai" />
+    <item
+        android:id="@+id/side_category_mayTinhBang"
+        android:title="@string/mayTinhBang" />
+    <item
+        android:id="@+id/side_category_lipstick"
+        android:title="@string/lipstick" />
+    <item
+        android:id="@+id/side_category_nuocHoa"
+        android:title="@string/nuocHoa" />
+    <item
+        android:id="@+id/side_category_lamMat"
+        android:title="@string/lamMat" />
+    <item
+        android:id="@+id/side_category_nauAn"
+        android:title="@string/nauAn" />
+    <item
+        android:id="@+id/side_category_giaDung"
+        android:title="@string/giaDung" />
+    <item
+        android:id="@+id/side_category_aoNu"
+        android:title="@string/aoNu" />
+    <item
+        android:id="@+id/side_category_quanNu"
+        android:title="@string/quanNu" />
+    <item
+        android:id="@+id/side_category_vayNu"
+        android:title="@string/vayNu" />
+    <item
+        android:id="@+id/side_category_aoNam"
+        android:title="@string/aoNam" />
+    <item
+        android:id="@+id/side_category_quanNam"
+        android:title="@string/quanNam" />
+    <item
+        android:id="@+id/side_category_trangSuc"
+        android:title="@string/trangSuc" />
+    <item
+        android:id="@+id/side_category_balo"
+        android:title="@string/balo" />
+    <item
+        android:id="@+id/side_category_tuiXach"
+        android:title="@string/tuiXach" />
+    <item
+        android:id="@+id/side_category_laptop"
+        android:title="@string/laptop" />
+    <item
+        android:id="@+id/side_category_pc"
+        android:title="@string/pc" />
+    <item
+        android:id="@+id/side_category_phuKien"
+        android:title="@string/phuKien" />
+    <item
+        android:id="@+id/side_category_oto"
+        android:title="@string/oto" />
+    <item
+        android:id="@+id/side_category_xeMay"
+        android:title="@string/xeMay" />
+    <item
+        android:id="@+id/side_category_foods"
+        android:title="@string/foods" />
+    <item
+        android:id="@+id/side_category_drinks"
+        android:title="@string/drinks" />
+</menu>
