@@ -1,0 +1,2 @@
+# TakaShop
+ Android App Shopping
